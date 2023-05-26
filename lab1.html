@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stilim1.css">
+        <meta charset="UTF-8">
+        <title>lab1</title>
+    </head>
+    <body>
+        <form action="record.php" method="get"><br>
+            <label>first name</label><br>
+            <input type="text" name="firstname" placeholder="write your name"required><br>
+            <label >last name</label><br>
+            <input type="text" name="lastname" pattern="\d*"required minlength="3" maxlength="8"><br>
+            <label >Age:</label><br>
+            <input type="number" name="age"><br>
+            <label >Birthdate:</label><br>
+            <input type="date" name="birthdate"><br>
+            <label >password:</label><br>
+            <input type="password" name="password"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender">
+            <label >Male:</label><br>
+            <input type="radio" name="gender">
+            <label >Female:</label><br>
+
+            <label>Interest:</label><br>
+            <input type="checkbox" name="g1">
+            <label>Book</label><br>
+            <input type="checkbox" name="g2">
+            <label>Shopping</label><br>
+            <input type="checkbox" name="g3">
+            <label>Social Media</label><br>
+
+            <label for="">Draduate level:</label><br>
+            <select>
+                <option value="1">Option1</option>
+                <option value="2">Option2</option>
+                <option value="3">Option3</option>
+                <option value="4">Option4</option>
+            </select><br><br>
+
+            <input type="submit" value="submit for">
+        </form>
+    </body>
+</html>

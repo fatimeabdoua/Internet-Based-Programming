@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stilim2.css">
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Title</title>
+    </head>
+    <style>
+        h1{color:blue;
+            font-size: 5vw;
+        
+        }
+
+        h2{color: aqua;}
+
+        .container{
+            background-color: #aaa;
+            width: 70%;
+
+        }
+
+    </style>
+
+<body>
+    <img src="IMG_20230304_205558.jpg" width="25%" height="25%">
+        <h1>This is a form application</h1>
+        <h2>Section 1</h2>
+<div class="container">
+       <form action="store.php" method="get">
+    <div class="row">
+        <div class="colum1">
+            <label>Firstname:</label>
+        </div>
+        <div class="colum2">
+            <input type="text" name="firstname" required>
+        </div>
+          
+    </div>
+
+    <div class="row">
+        <div class="colum1">
+            <label>Lastname:</label>
+        </div>
+        <div class="colum2">
+            <input type="text" name="lastname" required>
+        </div>
+          
+    </div>
+
+    <div class="row">
+        <div class="colum1">
+            <label>Comment:</label>
+        </div>
+        <div class="colum2">
+            <textarea placeholder="write something..." style="height: 100px; color: brown;"></textarea>
+        </div>
+          
+    </div>
+
+    <div class="row">
+        <div class="colum1">
+            <label>Class Level:</label>
+        </div>
+        <div class="colum2">
+            <select>
+                <option value="1">level 1</option>
+                <option value="1">level 2</option>
+                <option value="1">level 3</option>
+            </select>
+        </div>
+          
+    </div>
+           
+           
+
+            <input type="submit" value="submit This form">
+        </form>
+</div>
+        
+    </body>
+
+
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function validate(){
+            let x = document.forms["register"]["fname"].value;
+            if(x==""){
+                windows.alert("name must be filled");
+                return false;
+            }
+            else
+            return true;
+           
+        }
+
+        function myfun(){
+            let y = document.getElementById("lname");
+            y.value = y.value.toUpperCase();
+            let x = document.getElementById("lname").value;
+            let text;
+            if(isNan(x) || x>100){
+                text = "the input is invalid"
+            }
+            else
+            text ="it is valid";
+        }
+        document.getElementById("start").innerHTML= text;
+    </script>
+
+    <header>
+        Internet based Programming
+    </header>
+    <section>
+        <nav>
+            <ol>
+                <li><a href="layout.html">Mainpage</a></li>
+                <li><a href="form.html">Form page</a></li>
+
+                <li></li>
+            </ol>
+        </nav>
+    </section>
+    <footer>
+        This is footer
+    </footer>
+
+    <script>
+        document.getElementById("title").innerText="This is title";
+        document.write("Hello");
+
+    </script>
+ 
+</body>
+</html>
